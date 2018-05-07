@@ -3,6 +3,6 @@ version: '3'
 
 services:
     mediawiki:
-        image: stuartm2/semantic-mediawiki
+        image: stuartm2/minewiki
         ports:
             - 80:80

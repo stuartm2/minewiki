@@ -34,4 +34,3 @@ COPY LocalSettings.php w/
 COPY mediawiki mediawiki
 
 RUN chmod -R 755 mediawiki
-
