@@ -1,0 +1,8 @@
+# MediaWiki with MySQL
+version: '3'
+
+services:
+    mediawiki:
+        image: stuartm2/semantic-mediawiki
+        ports:
+            - 80:80
