@@ -162,6 +162,5 @@ $GLOBALS['egMapsDefaultServices']['qp'] = $GLOBALS['egMapsDefaultService'];
 $GLOBALS['egMapsGMaps3ApiKey'] = $_ENV['MW_GMAPS_KEY'];
 
 # Other extensions
-// require_once("$IP/extensions/UserAdmin/UserAdmin.php"); <- obsolete - DELETE ME!  Maybe replace with https://www.mediawiki.org/wiki/Extension:UserManager ?
 include_once("$IP/extensions/EmbedVideo/EmbedVideo.php");
 wfLoadExtension('Cite');
