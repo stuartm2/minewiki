@@ -22,7 +22,7 @@ services:
         build: .
         restart: always
         environment:
-            MW_INSTALL_PATH: /var/www/html/w
+            MW_INSTALL_PATH: /var/www/html
             MW_SERVER: ${MW_SERVER}
             MYSQL_DBNAME: ${MYSQL_DBNAME}
             MYSQL_USER: ${MYSQL_USER}
@@ -33,9 +33,7 @@ services:
             MW_GMAPS_KEY: ${MW_GMAPS_KEY}
         ports:
             - 8080:80
-        links:
-            - mysql
         depends_on:
             - mysql
         volumes:
-            - images:/var/www/html/w/images
+            - images:/var/www/html/images

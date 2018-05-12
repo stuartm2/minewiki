@@ -1,5 +1,5 @@
 #!/bin/bash
 
-php /var/www/w/maintenance/update.php --quick
-php /var/www/w/maintenance/rebuildall.php
-php /var/www/w/vendor/mediawiki/semantic-media-wiki/maintenance/rebuildData.php
+php /var/www/html/maintenance/update.php --quick
+php /var/www/html/maintenance/rebuildall.php
+php /var/www/html/vendor/mediawiki/semantic-media-wiki/maintenance/rebuildData.php

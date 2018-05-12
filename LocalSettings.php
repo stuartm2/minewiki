@@ -25,7 +25,7 @@ $wgSitename = "Wiki";
 ## For more information on customizing the URLs
 ## (like /w/index.php/Page_title to /wiki/Page_title) please see:
 ## https://www.mediawiki.org/wiki/Manual:Short_URL
-$wgScriptPath = "/w";
+$wgScriptPath = "/html";
 $wgArticlePath = "/wiki/$1";
 $wgUsePathInfo = true;
 
