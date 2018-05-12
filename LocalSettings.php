@@ -30,7 +30,6 @@ $wgArticlePath = "/wiki/$1";
 $wgUsePathInfo = true;
 
 ## The protocol and server name to use in fully-qualified URLs
-// $wgServer = "http://minewiki.stuartm.me.uk";
 $wgServer = $_ENV['MW_SERVER'];
 
 ## The URL path to static resources (images, scripts, etc.)
